@@ -11,4 +11,6 @@ bcrypt = Bcrypt(app) #for hashing of password
 login_manager = LoginManager(app) #for handling the logins 
 login_manager.login_view = 'login'
 login_manager.login_message_category = 'info'
+
 from FlaskApp import routes
+
